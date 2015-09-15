@@ -12,8 +12,8 @@ public class AssertJPersonTest {
 	
 	@Test
 	public void firstNameIsEqual() {
-		Assertions.assertThat(person.getFirstName()).isEqualTo("John");
-		assertThat(person.getFirstName()).isEqualTo("John");
+		Assertions.assertThat(person.getFirstName()).isEqualTo("Alice");
+		assertThat(person.getFirstName()).isEqualTo("Alice");
 		// Falsche Reihenfolge nicht möglich!
 		// Vorteil: org.junit.ComparisonFailure (Eclipse und IntelliJ haben UI dafür!)
 	}

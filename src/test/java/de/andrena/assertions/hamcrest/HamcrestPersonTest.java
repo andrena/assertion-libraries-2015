@@ -14,7 +14,7 @@ public class HamcrestPersonTest {
 	
 	@Test
 	public void firstNameIsEqual() {
-		assertThat(person.getFirstName(), is("John"));
+		assertThat(person.getFirstName(), is("Alice"));
 		// Falsche Reihenfolge nicht möglich!
 	}
 	
